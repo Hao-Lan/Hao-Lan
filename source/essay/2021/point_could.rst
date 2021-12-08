@@ -3,9 +3,13 @@
 
 通过 `pythonocc-core` 读取 `ifc` 文件，点云化
 
-.. image:: /_static/pics/point_could_2021_12_8.png
+.. figure:: /_static/pics/point_could_2021_12_8.png
+
+   点云填充效果图
 
 .. code-block:: python
+   :name: pythonocc-core 和 ifcopenshell 示例
+   :caption: Block caption
    :linenos:
 
     import math

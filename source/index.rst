@@ -8,12 +8,9 @@ LH's Blog
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 2
    :glob:
 
    essay/index
    about_author
-
-
-
 
