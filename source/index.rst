@@ -3,18 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to LH's Blog's documentation!
-=====================================
+LH's Blog
+==========
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+章节目录:
+   .. toctree::
+      :maxdepth: 4
+      :glob:
+
+      essay/index
+      about_author
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
