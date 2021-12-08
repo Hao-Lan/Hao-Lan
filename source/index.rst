@@ -6,13 +6,13 @@
 LH's Blog
 ==========
 
-章节目录:
-   .. toctree::
-      :maxdepth: 4
-      :glob:
 
-      essay/index
-      about_author
+.. toctree::
+   :maxdepth: 4
+   :glob:
+
+   essay/index
+   about_author
 
 
 
