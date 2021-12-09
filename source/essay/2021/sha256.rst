@@ -1,0 +1,60 @@
+Hash： sha256
+==============
+
+编码相关
+--------
+
+.. code-block:: python
+   :name: GBK 编码
+   :caption: GBK 编码
+   :linenos:
+
+    import hashlib
+
+    content = "BlockChain你好"
+    b_content = content.encode("gbk")
+    sha_256 = hashlib.sha256(b_content)
+    print(sha_256.hexdigest())
+
+>>> ed17acf7dac746bb24777a193e27252464a63a4e1790019c9eead422a2faa957
+
+.. code-block:: python
+   :name: UTF8 编码
+   :caption: UTF8 编码
+   :linenos:
+
+    import hashlib
+
+    content = "BlockChain你好"
+    b_content = content.encode("utf8")
+    sha_256 = hashlib.sha256(b_content)
+    print(sha_256.hexdigest())
+
+>>> da1029fe36976dc0acb494cbe681e88204aa2146431a53dc8561bf6370af4adb
+
+
+叠加特点
+---------
+
+.. code-block:: python
+   :name: 叠加示例
+   :caption: 叠加示例
+   :linenos:
+
+    import hashlib
+
+    content_1 = b"Hello"
+    content_2 = b"World"
+    content_3 = content_1 + content_2
+
+    sha_256_1 = hashlib.sha256(content_1)
+    print(sha_256_1.hexdigest())
+    sha_256_1.update(content_2)
+    print(sha_256_1.hexdigest())
+    sha_256_2 = hashlib.sha256(content_3)
+    print(sha_256_2.hexdigest())
+
+>>> 271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
+>>> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
+>>> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
+

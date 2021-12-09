@@ -2,7 +2,8 @@
 =========
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
   :glob:
 
+  sha256
   point_could
