@@ -1,60 +1,91 @@
-Hash： sha256
-==============
+hash 和 rehash
+===============
 
-编码相关
---------
+起因
+----------
 
-.. code-block:: python
-   :name: GBK 编码
-   :caption: GBK 编码
-   :linenos:
+最近在看，《分布式对象存储——远离、架构及Go语言实现》
 
-    import hashlib
+.. figure:: /_static/pics/object_save.png
 
-    content = "BlockChain你好"
-    b_content = content.encode("gbk")
-    sha_256 = hashlib.sha256(b_content)
-    print(sha_256.hexdigest())
+   封面
 
->>> ed17acf7dac746bb24777a193e27252464a63a4e1790019c9eead422a2faa957
+`sha256` 进行数据一致性校验
+----------------------------
+
+对应python的实现，大概是:
 
 .. code-block:: python
-   :name: UTF8 编码
-   :caption: UTF8 编码
+   :name: 累加散列示例
+   :caption: 累加散列减少内存持续占用
    :linenos:
 
-    import hashlib
+   import hashlib
 
-    content = "BlockChain你好"
-    b_content = content.encode("utf8")
-    sha_256 = hashlib.sha256(b_content)
-    print(sha_256.hexdigest())
+   hash_hand = hashlib.sha256(b"")
 
->>> da1029fe36976dc0acb494cbe681e88204aa2146431a53dc8561bf6370af4adb
+   with open("xxx.txt", "rb") as f:
+      while data := f.read(8):
+        hash_hand.update(data)
+   print(hash_hand.hexdigest())
 
 
-叠加特点
----------
+大文件多次上传中的 `sha256`
+-----------------------------
+
+通过多次 `http` 请求来防止大文件上传失败时，重新上传。
+
+理解起来并不复杂，和我们做后端开发时，大文件的分片上传是类似的 —— 只是以前做的时候，并没有进行散列值校验。
+
+但是原书中，好像只是对具体的每一次 `http` 请求，做 `sha256` 校验，并没有对整个文件做 `sha256` 校验。
+
+思考： 如何实现文件本身的 `sha256` 校验
+-------------------------------------------
+
+要对多次上传的大文件进行 `sha256` 校验，首先想到便是：当文件上传结束后，再顺序读取多个节点存放的文件内容，进行 `sha256` 的校验。
+
+但显然，这不是最期待实现的做法 —— 无论是出自于读写磁盘的时间成本，还是内部网络传输的时间成本。
+
+毕竟前面已经采用了累加 `sha256` 进行计算，就希望此处可以在多次 `http` 请求中，恢复此前已经计算的状态，持续 `sha256` 的更新。
+
+但因为这些 `http` 请求的接收方，可能在不同的线程中，不同的进程中，甚至不同的服务器节点上，所以，是否可以恢复，以及如何恢复此前已经计算的散列值，就成了一个问题 —— 因为现有的 `hashlib` 库并不支持这样的操作。
+
+思考：是否可恢复
+----------------------
+
+通过查询 `sha256` 的实现原理，可以简单理解:
+
+   将数据按照固定长度进行拆分，然后通过循环更新初始值，实现对 `sha256` 的计算，也是 `update` 内部逻辑。
+
+所以，推测的便是:
+
+   如果我能导出当前的 `初始值`，然后在多个节点程序中共享，在下一次 `http` 请求中，通过修改 `初始值` 的方式，将共享的 `初始值` 的传入，便可以实现，在上传过程中，保持对整个文件的 `sha256` 的计算。
+
+   或者别的方式，直接导入整个 `sha256` 状态？
+
+结果： `pickle` 和 `rehash`
+------------------------------------
 
 .. code-block:: python
-   :name: 叠加示例
-   :caption: 叠加示例
+   :name: pickle and rehash
+   :caption: pickle and rehash
    :linenos:
 
-    import hashlib
+   import pickle, rehash
+   hasher = rehash.sha256(b"foo")
+   state = pickle.dumps(hasher)
 
-    content_1 = b"Hello"
-    content_2 = b"World"
-    content_3 = content_1 + content_2
+   hasher2 = pickle.loads(state)
+   hasher2.update(b"bar")
 
-    sha_256_1 = hashlib.sha256(content_1)
-    print(sha_256_1.hexdigest())
-    sha_256_1.update(content_2)
-    print(sha_256_1.hexdigest())
-    sha_256_2 = hashlib.sha256(content_3)
-    print(sha_256_2.hexdigest())
+   assert hasher2.hexdigest() == rehash.sha256(b"foobar").hexdigest()
 
->>> 271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
->>> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
->>> 872e4e50ce9990d8b041330c47c9ddd11bec6b503ae9386a99da8584e9bb12c4
 
+相关参考链接
+----------------
+
+https://stackoverflow.com/questions/70287751/how-to-incrementally-calculate-sha256-for-a-file-which-is-uploaded-to-multiple
+
+https://bugs.python.org/issue11771
+
+https://github.com/kislyuk/rehash
