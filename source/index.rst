@@ -13,4 +13,3 @@ LH's Blog
 
    essay/index
    about_author
-

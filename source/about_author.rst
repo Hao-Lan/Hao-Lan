@@ -1,4 +1,4 @@
 关于
 ====
 
-bigpangl@163.com
+tu2k1ed@gmail.com

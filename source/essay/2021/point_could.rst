@@ -1,6 +1,12 @@
 模型生成点云
 ============
 
+==============  =============
+ Create
+ Last Update     2021-12-29
+==============  =============
+
+
 通过 `pythonocc-core` 读取 `ifc` 文件，点云化
 
 .. figure:: /_static/pics/point_could_2021_12_8.png
