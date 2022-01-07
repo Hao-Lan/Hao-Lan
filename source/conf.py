@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "LH's Blog"
+project = "Development Notes"
 copyright = '2021, HaoLan'
 author = 'HaoLan'
 
@@ -56,7 +56,7 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-language = 'zh_CN'
+# language = 'zh_CN'
 html_search_language = "zh_CN"
 
 rst_epilog = """

@@ -12,4 +12,3 @@ LH's Blog
    :glob:
 
    essay/index
-   about_author

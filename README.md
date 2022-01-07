@@ -18,4 +18,4 @@ Here are some ideas to get you started:
 
 一个普通 IT 从业人员的[日常](https://hao-lan.readthedocs.io/zh/latest/?)
 
-- Email: bigpangl@163.com
+- Email: tu2k1ed@gmail.com
