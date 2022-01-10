@@ -14,9 +14,11 @@ Here are some ideas to get you started:
 -->
 
 <h1 align="center">Hey 👋, I'm Hao Lan</h1>
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" width="800" />
-<img align="right" src="https://leetcode.card.workers.dev/?username=da-pang-zhi&theme=wtf" width="800" />
 
 一个普通 IT 从业人员的[日常](https://hao-lan.readthedocs.io)
 
 - Email: tu2k1ed@gmail.com
+
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" width="800" />
+<img align="right" src="https://leetcode.card.workers.dev/?username=da-pang-zhi&theme=wtf" width="800" />
+
