@@ -15,10 +15,6 @@ Here are some ideas to get you started:
 
 <h1 align="center">Hey 👋, I'm Hao Lan</h1>
 
-一个普通 IT 从业人员的[日常](https://hao-lan.readthedocs.io)
-
-- Email: tu2k1ed@gmail.com
-
 <div>
     <div style="flat:left">
         <img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
@@ -29,3 +25,6 @@ Here are some ideas to get you started:
     </div>
 </div>
 
+一个普通 IT 从业人员的[日常](https://hao-lan.readthedocs.io)
+
+- Email: tu2k1ed@gmail.com
