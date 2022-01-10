@@ -20,12 +20,12 @@ Here are some ideas to get you started:
 - Email: tu2k1ed@gmail.com
 
 <div>
-    <div align="left">
-        <img align="left" src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
+    <div style="flat:left">
+        <img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
     </div>
-    <div align="right">
-        <img align="right" src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" width="600" />
-        <img align="right" src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf" width="600" />
+    <div style="flat:right">
+        <img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" width="600" />
+        <img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf" width="600" />
     </div>
 </div>
 
