@@ -12,28 +12,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<style>
-    .container>div{
-        display: inline-block;
-    }
-    title>h1{
-        text-align: center;
-    }
-    .left>div{
-        float: left;
-    }
-    .right>div{
-        float:right;
-    }
-</style>
 
-<h1 class="title">Hey 👋, I'm Hao Lan</h1>
+<h1 style="text-align: center">Hey 👋, I'm Hao Lan</h1>
 
-<div class="container">
-    <div class="left">
+<div style="display: inline-block;">
+    <div>
         <img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
     </div>
-    <div class="right">
+    <div>
         <img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
         <img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf"/>
     </div>
