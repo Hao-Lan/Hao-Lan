@@ -22,5 +22,4 @@ Here are some ideas to get you started:
 
 <img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf"/>
 
-<img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
 
