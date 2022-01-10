@@ -13,18 +13,22 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<h1 align="center">Hey 👋, I'm Hao Lan</h1>
-
-<div>
-    <div style="flat:left">
-        <img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
-    </div>
-    <div style="flat:right">
-        <img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" width="600" />
-        <img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf" width="600" />
-    </div>
-</div>
+<h1 style="text-align: center">Hey 👋, I'm Hao Lan</h1>
 
 一个普通 IT 从业人员的[日常](https://hao-lan.readthedocs.io)
 
 - Email: tu2k1ed@gmail.com
+
+<div style="display: flex;flex:1;">
+    <div style="flat:left;margin:0 8px">
+        <div>
+            <img src="https://github-readme-stackoverflow.vercel.app/?userID=8948738" />
+        </div>
+    </div>
+    <div style="flat:right">
+        <img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
+        <img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf"/>
+    </div>
+</div>
+
+
