@@ -18,8 +18,9 @@ Here are some ideas to get you started:
 
 
 
-<img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-<img  src="https://leetcode.card.workers.dev/?username=Hao-Lan" />
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
+
+![LeetCode Stats](https://leetcode.card.workers.dev/Hao-Lan?theme=default&font=source_code_pro&extension=activity)
 
 
