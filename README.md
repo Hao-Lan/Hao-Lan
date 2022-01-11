@@ -20,6 +20,6 @@ Here are some ideas to get you started:
 
 <img  src="https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 
-<img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf&tempid=" + Math.random() />
+<img  src="https://leetcode.card.workers.dev/?username=Hao-Lan&theme=wtf&tempid=+Math.random()" />
 
 
