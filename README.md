@@ -15,12 +15,7 @@ Here are some ideas to get you started:
 
 <h1 style="text-align: center">Hey 👋, I'm Hao Lan</h1>
 
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&count_private=true)](https://github.com/Hao-Lan)
 
-
-
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
-
-![LeetCode Stats](https://leetcode.card.workers.dev/Hao-Lan?theme=default&font=source_code_pro&extension=activity)
-
+[![Leetcode Stats](https://leetcode.card.workers.dev/?username=Hao-Lan&theme=default&font=source_code_pro&extension=activity)](https://leetcode.com/Hao-Lan)
 
