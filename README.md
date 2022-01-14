@@ -12,10 +12,29 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### Hao Lan's Home
 
-<h1 style="text-align: center">Hey 👋, I'm Hao Lan</h1>
+[![ghpvc](https://komarev.com/ghpvc/?username=Han-Lan)](https://komarev.com/ghpvc/?username=Hao-Lan)
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&count_private=true)](https://github.com/Hao-Lan)
+Hi there !  👋 I'm Hao Lan.
 
-[![Leetcode Stats](https://leetcode.card.workers.dev/?username=Hao-Lan&theme=default&font=source_code_pro&extension=activity)](https://leetcode.com/Hao-Lan)
+An ordinary developer in ChongQing:
 
+- 🔭 I’m currently working on `Python` and `Kubernetes`.
+- 🌱  I’m currently learning `Golang` ,`Kubernetes`'s secondary development and `Openstack`.
+- 📫 How to reach me:
+  - Email: bigpangl@163.com
+  
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/Hao-Lan)
+
+
+<p align="center">
+  <img alt="Kubernetes" src="https://img.shields.io/static/v1?style=flat&logo=Kubernetes&label=&message=Kubernetes&color=767676">
+  <img alt="Docker" src="https://img.shields.io/static/v1?style=flat&logo=Docker&label=&message=Docker&color=767676">
+  <img alt="Python" src="https://img.shields.io/static/v1?style=flat&logo=Python&label=&message=Python&color=767676">
+</p>
+
+<p align="center">
+ <img alt="Golang" src="https://img.shields.io/static/v1?style=flat&logo=Go&label=&message=Golang&color=767676">
+  <img alt="Openstack" src="https://img.shields.io/static/v1?style=flat&logo=Openstack&label=&message=Openstack&color=767676">
+</p>
