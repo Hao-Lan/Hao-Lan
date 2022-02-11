@@ -66,3 +66,29 @@ rst_prolog = """
 
 """
 numfig = True
+
+latex_engine = 'xelatex'
+
+latex_use_xindy = True
+
+latex_elements = {
+    #     'fontpkg': r'''
+    # \setmainfont{DejaVu Serif}
+    # \setsansfont{DejaVu Sans}
+    # \setmonofont{DejaVu Sans Mono}
+    # ''',
+    'preamble': r'''
+\usepackage{ctex}
+''',
+    'fncychap': '',
+    # 'printindex': r'\footnotesize\raggedright\printindex',
+    # "papersize": "a4paper",
+    # "passoptionstopackages": "模型应用笔记",
+    'extraclassoptions': 'openany,oneside',
+}
+
+#
+# https://juejin.im/post/5c7253c2e51d4512543327b4
+#
+# latex_logo = '_static/imgs/20220211111829.png'
+latex_show_urls = 'footnote'
