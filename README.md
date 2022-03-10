@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 Hi there !  👋 I'm Hao Lan.
 
-An ordinary developer in ChongQing:
+A ordinary developer in ChongQing:
 
 - 🔭 I’m currently working on `Python` and `Kubernetes`.
 - 🌱  I’m currently learning `Golang` ,`Kubernetes`'s secondary development and `Openstack`.
