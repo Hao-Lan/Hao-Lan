@@ -21,7 +21,7 @@ Hi there !  👋 I'm Hao Lan.
 A ordinary developer in ChongQing:
 
 - 🔭 I’m currently working on `Python` and `Kubernetes`.
-- 🌱  I’m interested everything I can meet ~
+- 🌱  I’m interested in everything I can meet ~
 - 📫 How to reach me:
   - Email: bigpangl@163.com
   
@@ -34,6 +34,7 @@ A ordinary developer in ChongQing:
   <img alt="Kubernetes" src="https://img.shields.io/static/v1?style=flat&logo=Kubernetes&label=&message=Kubernetes&color=767676">
 </p>
 <p align="center">
+  <img alt="Django" src="https://img.shields.io/static/v1?style=flat&logo=Tornado&label=&message=Tornado&color=767676">
   <img alt="Django" src="https://img.shields.io/static/v1?style=flat&logo=Django&label=&message=Django&color=767676">
   <img alt="Tensorflow" src="https://img.shields.io/static/v1?logo=tensorflow&label=&message=Tensorflow&color=767676">
 </p>
