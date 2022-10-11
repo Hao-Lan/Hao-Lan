@@ -12,13 +12,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-### Hao Lan's Home
+### LanHao's Home
 
 [![ghpvc](https://komarev.com/ghpvc/?username=Han-Lan)](https://komarev.com/ghpvc/?username=Hao-Lan)
 
-Hi there !  👋 I'm Hao Lan.
+Hi there !  👋 I'm LanHao.
 
-A ordinary developer in ChongQing:
+A  developer in ChongQing:
 
 - 🔭 I’m currently working on `Python` and `Kubernetes`.
 - 🌱  I’m interested in everything I can meet ~
