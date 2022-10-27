@@ -25,7 +25,7 @@ A  developer in ChongQing:
 - 📫 How to reach me:
   - Email: bigpangl@163.com
   
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hao-Lan&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/Hao-Lan)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
 
 
 <p align="center">
