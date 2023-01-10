@@ -25,7 +25,7 @@ A  developer in ChongQing:
   
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
 
-
+<!-- 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/static/v1?style=flat&logo=Python&label=&message=Python&color=767676">
   <img alt="Docker" src="https://img.shields.io/static/v1?style=flat&logo=Docker&label=&message=Docker&color=767676">
@@ -39,4 +39,4 @@ A  developer in ChongQing:
 <p align="center">
  <img alt="Golang" src="https://img.shields.io/static/v1?style=flat&logo=Go&label=&message=Golang&color=767676">
   <img alt="Openstack" src="https://img.shields.io/static/v1?style=flat&logo=Openstack&label=&message=Openstack&color=767676">
-</p>
+</p> -->
