@@ -22,8 +22,6 @@ A  developer in ChongQing:
 
 - 🔭 I’m currently working on `Python` and `Kubernetes`.
 - 🌱  I’m interested in everything I can meet ~
-- 📫 How to reach me:
-  - Email: bigpangl@163.com
   
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
 
