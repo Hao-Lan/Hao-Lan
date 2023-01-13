@@ -24,7 +24,7 @@ A  developer in ChongQing:
 - 🌱  I’m interested in everything I can meet ~
   
 [![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
-
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=lanhao945)](https://github.com/lanhao945)
 <!-- 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/static/v1?style=flat&logo=Python&label=&message=Python&color=767676">
