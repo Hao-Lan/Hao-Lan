@@ -23,7 +23,7 @@ A  developer in ChongQing:
 - 🔭 I’m currently working on `Python` and `Kubernetes`.
 - 🌱  I’m interested in everything I can meet ~
   
-[![GitHub Stats](github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
+[![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=lanhao945&show_icons=true&count_private=true&include_all_commits=true)](https://github.com/lanhao945)
 
 <!-- 
 <p align="center">
