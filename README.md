@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 ### LanHao's Home
 
-[![ghpvc](https://komarev.com/ghpvc/?username=lanhao945)](https://komarev.com/ghpvc/?username=lanhao945)
+<!-- [![ghpvc](https://komarev.com/ghpvc/?username=lanhao945)](https://komarev.com/ghpvc/?username=lanhao945) -->
 
 Hi there !  👋 I'm LanHao.
 
